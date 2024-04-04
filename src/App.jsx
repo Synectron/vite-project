@@ -1,13 +1,22 @@
 import "./App.css";
-import Welcome, { Bye } from "./Component/welcome";
+import ProductPage from "./Component/ProductPage";
+
+import productData from "./productDetails";
 
 function App() {
   return (
     <>
-      <Welcome className="" />
-      <Bye />
+      {/* <Welcome className="" />
+      <Bye /> */}
+      <ProductPage hello={"Shubham"} products={productData} />
     </>
   );
 }
 
 export default App;
+
+//function ab(val){
+//val =>"hello"
+// }
+
+// ab("hello")
