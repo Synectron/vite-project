@@ -1,0 +1,28 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "productName": "Salt",
+        "quantity": 5,
+        "price": 106
+      },
+      {
+        "id": 2,
+        "productName": "Sugar",
+        "quantity": 50,
+        "price": 101
+      },
+      {
+        "id": 3,
+        "productName": "Kurkure",
+        "quantity": 5,
+        "price": 102
+      },
+      {
+        "id": 4,
+        "productName": "Chips",
+        "quantity": 15,
+        "price": 10
+      }
+    ]
+  }
